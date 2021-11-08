@@ -1,0 +1,99 @@
+
+.home{
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.home::before{
+    content: "";
+    background-image: url('../images/homebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .4;
+    background-position: 50%0%;
+}
+
+.left{
+    display: flex;
+    justify-content: left;
+    flex-grow: 1;
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.profile{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 200px;
+    width: 200px;
+    flex-grow: 0;
+    position: relative;
+    background-size: cover;
+    box-shadow: inset 2px 2px 3px white, 5px 5px 5px 0px gray;;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: ease 0.5s;
+}
+
+.break{
+    flex-direction: column;
+    width: 0;
+}
+
+.name{
+    color: transparent;
+    transition: ease 0.5s;
+}
+
+.profile:hover{
+    height: 250px;
+    width: 250px;
+}
+.profile:hover .name{
+    color: white;
+
+}
+
+.caption{
+    position: relative;
+    padding: 10px;
+    color: transparent;
+    transition: ease .5s;
+}
+
+.profile:hover + .caption {
+    color: black;
+    transition: 3s;
+}
+
+@media (max-width: 680px){
+    .home::before{
+        top: 0px;
+        left: 100px;
+    }
+}
