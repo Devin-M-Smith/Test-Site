@@ -10,12 +10,20 @@ return (
                     <div className='profile' style={{backgroundImage: "url(" + Profile + ")"}}/>
                     <div className='caption'>
                         <h2>
-                            Software Developer
+                            Software
                         </h2>
-                        <p>Committed to delivering full stack applications!</p>
+                        <p>stack applications!</p>
+                    </div>
+                    <div className='break'/>
+                    <div className='profile' style={{backgroundImage: "url(" + Profile + ")"}}/>
+                    <div className='caption'>
+                        <h2>
+                            Software
+                        </h2>
+                        <p>stack applications!</p>
                     </div>
                 </div>
-                <div className='break'/>
+                <div className='breakMobile'/>
                 <div className='right'>
                     <div className='profile' style={{backgroundImage: "url(" + Military + ")"}}/>
                     <div className='caption'>
