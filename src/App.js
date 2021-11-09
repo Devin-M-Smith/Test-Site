@@ -7,10 +7,12 @@ import About from './pages/about'
 
 function App() {
   return (
-    <div id='whole'>
+    <div id='main'>
       <Router basename='/Test-Site'>
+        <div className='topper'>
         <Navbar/>
-        <div className='page'>
+        </div>
+        <div className='rest'>
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/about" component={About} />
@@ -19,7 +21,7 @@ function App() {
         </div>
       </Router>
     </div>
-  );
+);
 }
 
 export default App;

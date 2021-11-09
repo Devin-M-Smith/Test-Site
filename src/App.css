@@ -1,46 +1,41 @@
-#whole{
-    overflow: auto;
-    background-color: bisque;
-    height: 100vh;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-.page{
-    margin-top: 100px;
-}
-
 ::-webkit-scrollbar{
     width: 20px;
 }
 
 ::-webkit-scrollbar-track{
-    margin-top: 100px;
-    background-color: transparent;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: tomato;
+    background: tomato;
     border-radius: 20px;
     border: 6px solid transparent;
     background-clip: content-box;
 }
 
-::-webkit-scrollbar-corner{
-    background-color: transparent;
+*{
+    box-sizing: border-box;
 }
 
-@media (max-width: 680px){
-    ::-webkit-scrollbar-track{
-        margin-top: 0px;
-    }
-
-    .page{
-        margin-top: 0px;
-        margin-left: 100px;
-    }
+body{
+    margin: 0;
 }
+
+
+#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.topper{
+    box-shadow: 0px 5px 8px 2px rgba(255, 99, 71, 0.63);
+}
+
+.rest{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
