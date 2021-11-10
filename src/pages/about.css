@@ -1,3 +1,126 @@
 #about{
-    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow-y: scroll;
+}#about::before{
+    content: "";
+    background-image: url('../images/homebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .4;
+    background-position: 50%0%;
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 50%;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 50%;
+}
+
+.columnBreak{
+    flex-basis: 100%;
+    width: 0;
+}
+
+.rowLeft{
+    width: 100%;
+    display: flex;
+}
+
+.rowRight{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item{
+    position: relative;
+    padding: 5px;
+}
+
+.text{
+        position: relative;
+        padding: 5px;
+        margin: 10px;
+        box-shadow: none;
+        color: transparent;
+        transition: 1s;
+        border-radius: 100%;
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    flex-shrink: 1;
+    filter: blur(2px);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: none;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: inset 2px 2px 5px white, 2px 2px 5px gray;
+    height: 200px;
+    width: 200px;
+    transition: ease 1s;
+}
+.profile:hover{
+    height: 250px;
+    width: 250px;
+    filter: blur(0);
+}
+
+.item:hover + .text{
+    visibility: visible;
+    color: black;
+    transition: ease  4s;
+    box-shadow: inset 0px 0px 50px 0 whitesmoke, 0 0 50px 0 whitesmoke;
+}
+
+
+@media(max-width: 680px){
+    #about{
+        flex-direction: row;
+    }
+
+    .left{
+        width: 100%;
+    }
+    
+    .right{
+        justify-content: left;
+        width: 100%;
+    }
+
+    .rowRight{
+        flex-direction: row;
+    }
+
+    .text{
+        font-size: 12px;
+    }
+
+    .profile{
+        height: 150px;
+        width: 150px;
+    }
+
+    .profile:hover{
+        height: 200px;
+        width: 200px;
+    }
 }

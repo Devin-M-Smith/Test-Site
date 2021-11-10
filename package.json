@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages  -e docs -b test -d build && echo Deployed to Test Branch, to deploy to main us command 'deploy main'",
+    "deploy": "gh-pages  -e docs -b test -d build && echo Deployed to Test Branch. To deploy to main, use command 'deploy main'",
     "deploy main": "gh-pages  -e docs -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
