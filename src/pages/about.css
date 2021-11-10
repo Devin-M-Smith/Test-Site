@@ -58,6 +58,7 @@
         padding: 5px;
         margin: 10px;
         box-shadow: none;
+        visibility: hidden;
         color: transparent;
         transition: 1s;
         border-radius: 100%;
@@ -122,5 +123,9 @@
     .profile:hover{
         height: 200px;
         width: 200px;
+    }
+
+    .item:hover + .text{
+        box-shadow: none;
     }
 }
