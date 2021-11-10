@@ -1,14 +1,18 @@
 {
   "files": {
+
     "main.css": "/Test-Site/static/css/main.e8c28f2d.chunk.css",
     "main.js": "/Test-Site/static/js/main.c029b293.chunk.js",
     "main.js.map": "/Test-Site/static/js/main.c029b293.chunk.js.map",
+
     "runtime-main.js": "/Test-Site/static/js/runtime-main.7f669f24.js",
     "runtime-main.js.map": "/Test-Site/static/js/runtime-main.7f669f24.js.map",
     "static/js/2.c2f38f19.chunk.js": "/Test-Site/static/js/2.c2f38f19.chunk.js",
     "static/js/2.c2f38f19.chunk.js.map": "/Test-Site/static/js/2.c2f38f19.chunk.js.map",
     "index.html": "/Test-Site/index.html",
+
     "static/css/main.e8c28f2d.chunk.css.map": "/Test-Site/static/css/main.e8c28f2d.chunk.css.map",
+
     "static/js/2.c2f38f19.chunk.js.LICENSE.txt": "/Test-Site/static/js/2.c2f38f19.chunk.js.LICENSE.txt",
     "static/media/about.css": "/Test-Site/static/media/homebg.29610c90.jpg",
     "static/media/military.6329e4f4.jpg": "/Test-Site/static/media/military.6329e4f4.jpg",
@@ -17,7 +21,9 @@
   "entrypoints": [
     "static/js/runtime-main.7f669f24.js",
     "static/js/2.c2f38f19.chunk.js",
+
     "static/css/main.e8c28f2d.chunk.css",
     "static/js/main.c029b293.chunk.js"
+
   ]
 }
