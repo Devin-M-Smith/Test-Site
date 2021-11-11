@@ -16,7 +16,7 @@ Single page app with Routing. Currently has 3 pages:
 Home
 About
 Contact
-Home has a couple pictures displayed with interactive script, currently incomplete.
+About has a couple pictures displayed with interactive script, currently incomplete.
 Other two pages are empty.
 
 
