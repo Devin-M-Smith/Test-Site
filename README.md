@@ -2,7 +2,7 @@
 
 Website built entirely from scratch using React library for JS.
 
-[Devin-M-Smith.github.io/Test-Site]
+[Visit Site](devin-m-smith.github.io/Test-Site)
 
 ### Compatability
 
