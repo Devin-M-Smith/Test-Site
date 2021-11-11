@@ -13,10 +13,14 @@ Works well in latest Chrome and Edge browsers. Loses some decoration in Firefox.
 ### 0.0.1
 
 Single page app with Routing. Currently has 3 pages:
--Home
--About
--Contact
--About has a couple pictures displayed with interactive script, currently incomplete.
+
+Home
+
+About
+
+Contact
+
+About has a couple pictures displayed with interactive script, currently incomplete.
 Other two pages are empty.
 
 
