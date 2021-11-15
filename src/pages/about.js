@@ -10,7 +10,16 @@ return (
                     <div className='item'>
                         <div className='profile' style={{backgroundImage: "url(" + Profile + ")"}}/>
                     </div>
-                    <div className='text'>
+                    <div className='textLeft'>
+                        <h1>Software Developer</h1>
+                        <p>Hello Hello Hello Hello Hello Hello HelloHello Hello Hello Hello Hello Hello Hello</p>
+                    </div>
+            </div>
+            <div className='rowLeft'>
+                    <div className='item'>
+                        <div className='profile' style={{backgroundImage: "url(" + Profile + ")"}}/>
+                    </div>
+                    <div className='textLeft'>
                         <h1>Software Developer</h1>
                         <p>Hello Hello Hello Hello Hello Hello HelloHello Hello Hello Hello Hello Hello Hello</p>
                     </div>
@@ -23,7 +32,7 @@ return (
                 <div className='item'>
                     <div className='profile' style={{backgroundImage: "url(" + Military + ")"}}/>
                 </div>
-                <div className='text'>
+                <div className='textRight'>
                     <h1>Excellence</h1>
                     <p>Hello Hello Hello Hello Hello Hello HelloHello Hello Hello Hello Hello Hello Hello</p>
                 </div>
@@ -32,7 +41,7 @@ return (
                 <div className='item'>
                     <div className='profile' style={{backgroundImage: "url(" + Profile + ")"}}/>
                 </div>
-                <div className='text'>
+                <div className='textRight'>
                     <h1>Excellence</h1>
                     <p>Wassup Wassup Wassup Wassup Wassup Wassup Wassup Wassup Wassup Wassup </p>
                 </div>

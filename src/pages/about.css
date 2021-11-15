@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 100px;
+    top: 5em;
     right: 0px;
     bottom: 0px;
     left: 0px;
@@ -40,12 +40,15 @@
 .rowLeft{
     width: 100%;
     display: flex;
+    perspective: 30em;
 }
 
 .rowRight{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
+    perspective: 30em;
+
 }
 
 .item{
@@ -53,15 +56,28 @@
     padding: 5px;
 }
 
-.text{
-        position: relative;
-        padding: 5px;
-        margin: 10px;
-        box-shadow: none;
-        visibility: hidden;
-        color: transparent;
-        transition: 1s;
-        border-radius: 100%;
+.textLeft{
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: none;
+    visibility: hidden;
+    color: transparent;
+    transition: 1s;
+    border-radius: 50%;
+    transform: rotateY(0deg);
+}
+
+.textRight{
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: none;
+    visibility: hidden;
+    color: transparent;
+    transition: 1s;
+    border-radius: 50%;
+    transform:rotateY(0deg);
 }
 
 .profile{
@@ -75,21 +91,30 @@
     border-radius: 20px;
     margin: 20px;
     box-shadow: inset 2px 2px 5px white, 2px 2px 5px gray;
-    height: 200px;
-    width: 200px;
+    height: 10em;
+    width: 10em;
     transition: ease 1s;
 }
 .profile:hover{
-    height: 250px;
-    width: 250px;
+    height: 12em;
+    width: 12em;
     filter: blur(0);
 }
 
-.item:hover + .text{
+.item:hover + .textLeft{
     visibility: visible;
     color: black;
     transition: ease  4s;
     box-shadow: inset 0px 0px 50px 0 whitesmoke, 0 0 50px 0 whitesmoke;
+    transform: rotateY(-30deg);
+}
+
+.item:hover + .textRight{
+    visibility: visible;
+    color: black;
+    transition: ease  4s;
+    box-shadow: inset 0px 0px 50px 0 whitesmoke, 0 0 50px 0 whitesmoke;
+    transform: rotateY(30deg);
 }
 
 
@@ -111,21 +136,31 @@
         flex-direction: row;
     }
 
-    .text{
+    .textLeft{
+        font-size: 12px;
+    }
+
+    .textRight{
         font-size: 12px;
     }
 
     .profile{
-        height: 150px;
-        width: 150px;
+        height: 7.5em;
+        width: 7.5em;
     }
 
     .profile:hover{
-        height: 200px;
-        width: 200px;
+        height: 10em;
+        width: 10em;
     }
 
-    .item:hover + .text{
+    .item:hover + .textLeft{
         box-shadow: none;
+        transform: rotateY(0deg);
+    }
+
+    .item:hover + .textRight{
+        box-shadow: none;
+        transform: rotateY(0deg);
     }
 }
