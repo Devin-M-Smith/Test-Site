@@ -99,6 +99,7 @@
     height: 12em;
     width: 12em;
     filter: blur(0);
+    cursor:none;
 }
 
 .item:hover + .textLeft{

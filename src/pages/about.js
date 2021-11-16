@@ -21,7 +21,7 @@ return (
                     </div>
                     <div className='textLeft'>
                         <h1>Software Developer</h1>
-                        <p>Hello Hello Hello Hello Hello Hello HelloHello Hello Hello Hello Hello Hello Hello</p>
+                        <p>Hello hi Hello Hello Hello Hello HelloHello Hello Hello Hello Hello Hello Hello</p>
                     </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ return (
                 </div>
                 <div className='textRight'>
                     <h1>Excellence</h1>
-                    <p>Hello Hello Hello Hello Hello Hello HelloHello Hello Hello Hello Hello Hello Hello</p>
+                    <p>Hello hi Hello Hello Hello Hello HelloHello Hello Hello Hello Hello Hello Hello</p>
                 </div>
             </div>
             <div className='rowRight'>
@@ -43,7 +43,7 @@ return (
                 </div>
                 <div className='textRight'>
                     <h1>Excellence</h1>
-                    <p>Wassup Wassup Wassup Wassup Wassup Wassup Wassup Wassup Wassup Wassup </p>
+                    <p>Hello hi Hello Hello Hello Hello HelloHello Hello Hello Hello Hello Hello Hello</p>
                 </div>
             </div>
             
