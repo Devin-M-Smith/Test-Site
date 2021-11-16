@@ -38,6 +38,20 @@ body{
     box-shadow: 0px 5px 8px 2px rgba(255, 99, 71, 0.63);
 }
 
+.rest::before{
+    content: "";
+    background-image: url('./images/homebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 5em;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .4;
+    background-position: 50%0%;
+}
+
 .rest{
     display: flex;
     width: 100%;

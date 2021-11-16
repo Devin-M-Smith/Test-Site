@@ -4,18 +4,6 @@
     flex-wrap: wrap;
     width: 100%;
     overflow-y: scroll;
-}#about::before{
-    content: "";
-    background-image: url('../images/homebg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 5em;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: .4;
-    background-position: 50%0%;
 }
 
 .left{
